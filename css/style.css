@@ -1,15 +1,41 @@
-body {
-    background-color: black;
-}
 
-p {
-    color: red;
-}
+/*FONT TITULOS*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
+/*FONT TEXTO*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+/* BARRA NAVEGACION */
 nav {
     background-color: black;
 }
 
 a {
     color: white;
+    font-family: "Rubik", serif;
+    font-size: 20px;
+}
+
+/*OVERALL DE LA PAGINA*/
+
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+    font-family: "Rubik", serif;
+}
+    
+
+/*HOME*/
+.home {
+    background-image: url("../img/videoFondo.mp4");
+}
+
+.titulo {
+    color: white;
+    font-family: "Archivo Black", serif;
+    font-size: 120px;
 }
